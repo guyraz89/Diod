@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/assets">
+    <file>up-arrow.png</file>
+  </qresource>
+</RCC>

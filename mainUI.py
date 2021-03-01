@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_mainoGoiDt.ui'
+## Form generated from reading UI file 'ui_mainDGdDRC.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -244,9 +244,21 @@ class Ui_MainWindow(object):
         self.DiagnosticsFrame = QFrame(self.Settings)
         self.DiagnosticsFrame.setObjectName(u"DiagnosticsFrame")
         self.DiagnosticsFrame.setGeometry(QRect(0, -1, 1181, 101))
-        self.DiagnosticsFrame.setStyleSheet(u"background-color: #FFFFFF;")
+        self.DiagnosticsFrame.setStyleSheet(u"background-color: #FFFFFF")
         self.DiagnosticsFrame.setFrameShape(QFrame.StyledPanel)
         self.DiagnosticsFrame.setFrameShadow(QFrame.Raised)
+        self.label = QLabel(self.DiagnosticsFrame)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(60, 40, 131, 31))
+        self.label_2 = QLabel(self.DiagnosticsFrame)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(220, 40, 131, 31))
+        self.label_3 = QLabel(self.DiagnosticsFrame)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(360, 40, 131, 31))
+        self.label_4 = QLabel(self.DiagnosticsFrame)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(550, 40, 131, 31))
         self.stackedWidget.addWidget(self.Settings)
         self.Calibration = QWidget()
         self.Calibration.setObjectName(u"Calibration")
@@ -287,5 +299,9 @@ class Ui_MainWindow(object):
         self.IncrementBeamButton.setText(QCoreApplication.translate("MainWindow", u"+", None))
         self.label_13.setText(QCoreApplication.translate("MainWindow", u"Aiming Beam", None))
         self.StandbyButton.setText(QCoreApplication.translate("MainWindow", u"Ready/Standby", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Temprature: 0 C", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Tec: Disable", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Footswitch: Unpressed", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Interlock: Close", None))
     # retranslateUi
 

@@ -550,12 +550,67 @@ border: 5px solid black;</string>
                 <height>101</height>
                </rect>
               </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: #FFFFFF</string>
+              </property>
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
               <property name="frameShadow">
                <enum>QFrame::Raised</enum>
               </property>
+              <widget class="QLabel" name="label">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>40</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Temprature: 0 C</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_2">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>40</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Tec: Disable</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_3">
+               <property name="geometry">
+                <rect>
+                 <x>360</x>
+                 <y>40</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Footswitch: Unpressed</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_4">
+               <property name="geometry">
+                <rect>
+                 <x>550</x>
+                 <y>40</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Interlock: Close</string>
+               </property>
+              </widget>
              </widget>
             </widget>
             <widget class="QWidget" name="Calibration">
